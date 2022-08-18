@@ -20,9 +20,9 @@ const setupServer = () => {
   });
 
   app.get("/api/lost_items/:id", async (req, res) => {
-    const inputId = req.params.id;
+    const targetId = req.params.id;
 
-    const lostItem = await db("lost_items").select().where({ id: inputId });
+    const lostItem = await db("lost_items").select().where({ id: targetId });
     res.status(200).json({ lost_items: lostItem });
   });
 
@@ -41,18 +41,18 @@ const setupServer = () => {
   });
 
   app.patch("/api/lost_items/edit/:id", async (req, res) => {
-    const inputId = req.params.id;
+    const targetId = req.params.id;
     const input = req.body;
 
-    await db("lost_items").where({ id: inputId }).update({
+    await db("lost_items").where({ id: targetId }).update({
       category: input.category,
     });
     res.status(204).send("updated the data");
   });
 
   app.delete("/api/lost_items/delete/:id", async (req, res) => {
-    const inputId = req.params.id;
-    await db("lost_items").where({ id: inputId }).del();
+    const targetId = req.params.id;
+    await db("lost_items").where({ id: targetId }).del();
     res.status(204).send("The data has been successfully deleted!");
   });
 
