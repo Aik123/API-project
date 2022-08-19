@@ -44,7 +44,7 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 2. GET /api/lost_items
 3. GET /api/lost_items/:id
 4. POST /api/lost_items/new
-5. PATCH /api/lost_items/edit/👰‍♀:id 
+5. PATCH /api/lost_items/edit/:id 
 6. DELETE /api/lost_items/delete/:id
 
 ---
