@@ -7,9 +7,12 @@
 このリポジトリはCode Chrysalisの生徒であるときに作成しました。
 
 自分でデータベース、APIの生成を行うプロジェクトでした。
-APIを使ってlocalhostでデータベースの画像やデータを表示する。
+
+APIを使ってlocalhostでデータベースの画像やデータを表示することがきます。
+
 
 ---
+
 **「テーマ」**
 
 落とし物って哀愁を感じませんか？
@@ -18,7 +21,9 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 
 データベース名： lost_and_found
 
+
 ---
+
 **「プロジェクトの目的」**
 
 [ ] Express/GraphQL, および Relational database を使用してCRUD APIサービスを作成する
@@ -28,6 +33,7 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 [ ] 基本的/シンプルなフロントエンドを作成する
 
 ---
+
 **「エンドポイント」**
 
 1. GET /
@@ -38,6 +44,7 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 6. DELETE /api/lost_items/delete/:id
 
 ---
+
 **「使い方」**
 STEP1: ファイルをあなたのローカルリポジトリへクローンしてください.  
 STEP2: npm install (yarnでもOK)  
