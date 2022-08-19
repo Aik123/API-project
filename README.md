@@ -27,12 +27,12 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 
 **「エンドポイント」**
 
-*GET /. 
-*GET /api/lost_items. 
-*GET /api/lost_items/:d. 
-*POST /api/lost_items/new. 
-*PATCH /api/lost_items/edit/:id. 
-*DELETE /api/lost_items/delete/:id. 
+1. GET /
+2. GET /api/lost_items
+3. GET /api/lost_items/:d
+4. POST /api/lost_items/new
+5. PATCH /api/lost_items/edit/:id
+6. DELETE /api/lost_items/delete/:id
 
 **「使い方」**
 STEP1: ファイルをあなたのローカルリポジトリへクローンしてください
