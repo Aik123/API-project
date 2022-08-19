@@ -39,9 +39,9 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 ---
 **「使い方」**
 STEP1: ファイルをあなたのローカルリポジトリへクローンしてください.  
-STEP2: npm install (yarnでもOK).  
-STEP3: .envファイルを作成してlocalhostを設定（設定項目はknexfile.js内を参照).  
-STEP3: npm run migrate ・・・migrationファイルの読み込み（テーブル作成）.  
-STEP4: npm run seed　　・・・seedファイルの読み込み（データをテーブルへ挿入）.  
-STEP5: npm run dev もしくは npm start.  
-STEP6: localhostへアクセス.  
+STEP2: npm install (yarnでもOK)  
+STEP3: .envファイルを作成してlocalhostを設定（設定項目はknexfile.js内を参照)  
+STEP3: npm run migrate ・・・migrationファイルの読み込み（テーブル作成）  
+STEP4: npm run seed　　・・・seedファイルの読み込み（データをテーブルへ挿入）  
+STEP5: npm run dev もしくは npm start  
+STEP6: localhostへアクセス  
