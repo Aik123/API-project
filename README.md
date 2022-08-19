@@ -1,5 +1,9 @@
 # API-project
 
+
+![image](https://user-images.githubusercontent.com/97071741/185521725-633597ca-e6a4-47f3-a518-b2d823808359.png)
+
+
 ---
 
 **「リポジトリの説明・概要」**
@@ -26,11 +30,11 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 
 **「プロジェクトの目的」**
 
-[ ] Express/GraphQL, および Relational database を使用してCRUD APIサービスを作成する
-[ ] APIのテストを書く
-[ ] 興味のあるデータを使って、データベースをセットアップする
-[ ] APIエンドポイントをドキュメント化して、他のデベロッパーが使用できるようにする
-[ ] 基本的/シンプルなフロントエンドを作成する
+* Express/GraphQL, および Relational database を使用してCRUD APIサービスを作成する　　 
+* APIのテストを書く　　 
+* 興味のあるデータを使って、データベースをセットアップする　　  
+* APIエンドポイントをドキュメント化して、他のデベロッパーが使用できるようにする　　 
+* 基本的/シンプルなフロントエンドを作成する　　 
 
 ---
 
@@ -46,10 +50,27 @@ APIを使ってlocalhostでデータベースの画像やデータを表示す�
 ---
 
 **「使い方」**
+
 STEP1: ファイルをあなたのローカルリポジトリへクローンしてください.  
-STEP2: npm install (yarnでもOK)  
+
+STEP2: `npm install` (yarnでもOK)  
+
 STEP3: .envファイルを作成してlocalhostを設定（設定項目はknexfile.js内を参照)  
-STEP3: npm run migrate ・・・migrationファイルの読み込み（テーブル作成）  
-STEP4: npm run seed　　・・・seedファイルの読み込み（データをテーブルへ挿入）  
-STEP5: npm run dev もしくは npm start  
+
+STEP3: `npm run migrate` ・・・migrationファイルの読み込み（テーブル作成）  
+
+STEP4: `npm run seed`　　・・・seedファイルの読み込み（データをテーブルへ挿入）  
+
+STEP5: `npm run dev` もしくは `npm start`  
+
 STEP6: localhostへアクセス  
+
+---
+
+**「使用ライブラリ等」**
+
+* Express.js server Webアプリケーションフレームワーク
+* PostgreSQL  リレーショナルデータベース管理システム（RDBMS）
+* Knex.js　　　　Node.js向けのSQLクエリービルダー
+* mocha/chai/chaiHTTP テストライブラリ
+
